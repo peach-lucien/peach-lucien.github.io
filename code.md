@@ -25,10 +25,11 @@ Below you find brief descriptions and the links to code related to several proje
 * [Data-driven clustering of time-series](#DDCBEHAVIOURS)
 
 
-## Simplicial closure and higher-order link prediction
+## Data-driven clustering of student engagement time-series to identify learning behaviours
 {: #DDCBEHAVIOURS}
-Text Text Text
+Here, we present an unsupervised methodology that allows the direct analysis of raw time series gathered from the engagement of learners as they complete tasks of online courses without imposing a priori the number or type of groups of learners, i.e., distinct learner clusters are not pre-determined nor identified subjectively based on prior features but are detected algorithmically during the data analysis. Specifically, we analysed the time series (i.e., time stamped data of task completion) of 81 learners as they undertook the six online compulsory courses that form the first year of a2-year part-time postgraduate management degree.  The courses extended over three terms and the patterns of task completion differ greatly across the learner group.
 
+The methodology we implemented is summarised in the below Figure. Using the time stamps of task completion by each learner, we employ adynamic time warping kernel to calculate similarities between learner time series and construct a similarity score between all pairs of learners. From this information, we then construct a similarity graph of the learner group and apply to it Markov Stability, a multiscale unsupervised graph partitioning framework, in order to obtain clusters of learners with similar temporal behaviours.
 
 <div style="border: 1px solid black; padding: 0px;" markdown="1">
 ![image-center](/images/DTW_clustering.png){: .align-center}
