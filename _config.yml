@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Robert Peach"
-  avatar           : "/images/RobertPhoto.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/RobertPhoto.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Research Associate @Imperial College London"
   location         : "London, UK"
   email            : "r.peach13@imperial.ac.uk"
@@ -113,7 +113,7 @@ author:
       url: "https://github.com/peach-lucien"
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=JmvbpUMAAAAJ&hl=en&authuser=2&oi=sra"
+      url: "https://scholar.google.com/citations?user=5vnU9VwAAAAJ&hl=en&authuser=2&oi=sra"
 
 # Site Footer
 footer:
