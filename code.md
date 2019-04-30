@@ -96,7 +96,7 @@ Figure: (a) Markov Stability results for six D152 in silico mutants, showing inc
 Engineering a protein to maintain thermal resistance whilst retaining functionality requires the rational modification of protein sequence and structure. However, predicting the effect of mutations on the thermal stability of a protein is a difficult task. Here, we present an efficient computational tool that, when given the atomistic structure of a protein, can be used to predict the change in melting temperature upon point mutation. The method first uses unsupervised learning to identify key regions in the protein and then using mutagenesis it ranks mutations according to their perturbation to these key regions. The predictions are validated through 8 point mutation melting temperature experiments in Aquifex ADK which show a strong correlation. We also show that combining the rankings of residues with their evolutionary conservation scores identifies key thermophilic adaption residues, agreeing with a number of literature studies. 
 
 
-<div style="border: 1px solid black; padding: 0px;" markdown="1">
+<div style="border: 1px solid black; padding: 100px;" markdown="1">
 ![image-center](/images/ADK_melting_1.png){: .align-center}
 </div>
 
@@ -104,7 +104,7 @@ Figure: (a) Melting curves of ADK mutants measured by circular dichroism. The bl
 represent the average ellipticity measured at 2oC intervals. The sub-graphs present the melting data
 and fits with model I (green) and II (red) for each protein respectively. (b) The fitted curves for each mutant and the wildtype are plotted and normalised for comparison. (c) A plot of computational scores against melting temperatures for the ADK mutants. The Markov Stability scores of each ADK core mutation were plotted against their respective melting temperature as measured by circular dichroism. The error bars are the 95% confidence intervals of the sigmoidal fit to the CD curves. The blue line represents a linear fit with an R2 of 0.58, suggesting the presence of a correlation between the theoretical and experimental parameters.
 
-<div style="border: 1px solid black; padding: 0px;" markdown="1">
+<div style="border: 1px solid black; padding: 100px;" markdown="1">
 ![image-center](/images/conservation_adk.png){: .align-center}
 </div>
 
