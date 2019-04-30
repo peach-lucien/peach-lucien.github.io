@@ -25,6 +25,8 @@ Below you find brief descriptions and the links to code related to several proje
 * [Data-driven clustering of time-series](#DDCBEHAVIOURS)
 * [Highly Comparative Graph Analysis](#HCGA)
 * [MarkovTrap: semi-supervised learning on graphs](#MARKOVTRAP)
+* [ Predicting the effect of protein mutations using graph theory](#ADK1)
+
 
 ## Data-driven clustering of student engagement time-series to identify learning behaviours
 {: #DDCBEHAVIOURS}
@@ -68,5 +70,16 @@ The feature information is incorporated into a prior probability distribution of
 
 <div style="border: 1px solid black; padding: 0px;" markdown="1">
 ![image-center](/images/toy_model_markovtrap.png){: .align-center}
+</div>
+
+
+
+## Predicting the effect of protein mutations using graph theory
+{: #ADK1}
+
+Proteins exhibit complex dynamics across a vast range of time and length scales, from the atomistic to the conformational. Adenylate kinase (ADK) showcases the biological relevance of such inherently coupled dynamics across scales: single mutations can affect large-scale protein motions and enzymatic activity. Here we present a combined computational and experimental study of multiscale structure and dynamics in proteins, using ADK as our system of choice. We show how a computationally efficient method for unsupervised graph partitioning can be applied to atomistic graphs derived from protein structures to reveal intrinsic, biochemically relevant substructures at all scales, without re-parameterisation or a priori coarse-graining. We subsequently perform full alanine and arginine in silico mutagenesis scans of the protein, and score all mutations according to the disruption they induce on the large-scale organisation. We use our calculations to guide FRET experiments on ADK, and show that mutating residue D152 to alanine or residue V164 to arginine induce a large dynamical shift of the protein structure towards a closed state, in accordance with our predictions. Our computations also predict a graded effect of different mutations at the D152 site as a result of increased coherence between the core and binding domains, an effect confirmed quantitatively through a high correlation ( R2 = 0.93 ) with the FRET ratio between closed and open populations measured on six mutants.
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/ADK_results.png){: .align-center}
 </div>
 
