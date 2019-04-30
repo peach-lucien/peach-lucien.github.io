@@ -23,7 +23,8 @@ permalink: /Code/
 Below you find brief descriptions and the links to code related to several projects.
 
 * [Data-driven clustering of time-series](#DDCBEHAVIOURS)
-
+* [Highly Comparative Graph Analysis](#HCGA)
+* [MarkovTrap: semi-supervised learning on graphs](#MARKOVTRAP)
 
 ## Data-driven clustering of student engagement time-series to identify learning behaviours
 {: #DDCBEHAVIOURS}
@@ -42,7 +43,7 @@ The methodology we implemented is summarised in the below Figure. Using the time
 
 
 
-* [Highly Comparative Graph Analysis](#HCGA)
+
 
 
 ## Highly Comparative Graph Analysis (hcga)
@@ -51,4 +52,21 @@ Classification of graphs is both of interest but difficult to achieve. In recent
 
 To overcome this failing we have developed hcga: Highly comparative graph analysis. Taking inspiration from hctsa (Highly comparative time-series analysis) we have developed a Python package that undiscriminantly calculates 1000s of graph features. This enables simple machine learning methods to predict the class of graphs. Moreover, the massive feature extraction enables the user to identify specific features which enable high classification accuracy and can provide insight into the differences between graph classes.
 
+[https://imperialcollegelondon.github.io/hcga/](https://imperialcollegelondon.github.io/hcga/)  
+
+
+
+## MarkovTrap: Semi-supervised learning on graphs
+{: #MARKOVTRAP}
+
+Networks can provide a concise, elegant and powerful representation of complex systems. In recent years, there has been a surge of interest in network analysis that has provided a wide range of analytical tools. Typically, these methods aim to reveal the structural properties of the network that can be used to infer the behaviour of the system which the network describes. Most literature in network science focuses solely on the topology of the network; tools are developed to reveal information about the nodes and the edges that link them. However, in most applications, the network will be accompanied by additional information that describes the nodes (or edges). The atom type or charge in a molecule network, the website text on an internet network, the demographic background of a person on a social network, are all examples of important information that are often disregarded in standard network analyses. 
+
+Despite there often being a wealth of meta-data for each node, often the majority of a network will be unlabelled. For example, the minority of proteins in a protein-protein interaction network may be of known function, or the minority of persons within a social network may be of known political inclination. Instead, the remaining labels must be inferred or learned from the network topology and metadata - this is commonly known as semi-supervised learning. It is important to emphasise the difference between meta-data and labels, where the former describes additional information about nodes and the latter describes a `ground truth' representation of the network. The meta-data is not necessarily an appropriate proxy for the node labels. 
+
+We introduce MarkovTrap, an intuitive dynamical approach for semi-supervised learning on graphs based on Markovian random-walks. Instead of learning the class labels using a non-linear graph convolutional method, MarkovTrap uses a dynamic Markov process of the class labels across the graph. 
+The feature information is incorporated into a prior probability distribution of the class labels through a cosine similarity function or an standard learned estimation. The diffusion is intrinsically related to the time scale of the random-walks and thus the class labels become transiently trapped in the underlying network structure, thus creating significant label propagation on non-neighbouring nodes. We apply this methodology to some of the standard citation networks and a wikipedia datasets to demonstrate that MarkovTrap gives similar accuracies to the state of the art graph convolutional neural networks. We also show that MarkovTrap is capable of classifying nodes on a directed network. 
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/toy_model_markovtrap.pdf){: .align-center}
+</div>
 
