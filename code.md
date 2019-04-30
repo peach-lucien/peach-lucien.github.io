@@ -40,3 +40,15 @@ The methodology we implemented is summarised in the below Figure. Using the time
 " Data-driven unsupervised clustering of online learner behaviour " 
 *arXiv preprint*, 2019, [DOI: arXiv:1902.04047](https://arxiv.org/abs/1902.04047)   
 
+
+
+* [Highly Comparative Graph Analysis](#HCGA)
+
+
+## Highly Comparative Graph Analysis (hcga)
+{: #HCGA}
+Classification of graphs is both of interest but difficult to achieve. In recent years, a variety of deep learning methodologies have been developed that attempt to learn graph features. These methods either try and learn the spectral decomposition of a network or apply convolutional architectures. However, these methods inherently bias themselves the static representation of the graph and don't learn long distance features. For example, convolutional architectures learn local features based on nearest or next nearest neighbours. Moreover, these deep learning methodologies provide little information about the graph features which are most important for classification which prevents informed graph design.
+
+To overcome this failing we have developed hcga: Highly comparative graph analysis. Taking inspiration from hctsa (Highly comparative time-series analysis) we have developed a Python package that undiscriminantly calculates 1000s of graph features. This enables simple machine learning methods to predict the class of graphs. Moreover, the massive feature extraction enables the user to identify specific features which enable high classification accuracy and can provide insight into the differences between graph classes.
+
+
