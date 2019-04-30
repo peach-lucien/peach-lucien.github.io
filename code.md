@@ -68,7 +68,7 @@ Despite there often being a wealth of meta-data for each node, often the majorit
 We introduce MarkovTrap, an intuitive dynamical approach for semi-supervised learning on graphs based on Markovian random-walks. Instead of learning the class labels using a non-linear graph convolutional method, MarkovTrap uses a dynamic Markov process of the class labels across the graph. 
 The feature information is incorporated into a prior probability distribution of the class labels through a cosine similarity function or an standard learned estimation. The diffusion is intrinsically related to the time scale of the random-walks and thus the class labels become transiently trapped in the underlying network structure, thus creating significant label propagation on non-neighbouring nodes. We apply this methodology to some of the standard citation networks and a wikipedia datasets to demonstrate that MarkovTrap gives similar accuracies to the state of the art graph convolutional neural networks. We also show that MarkovTrap is capable of classifying nodes on a directed network. 
 
-<div style="border: 1px solid black; padding: 0px;" markdown="1">
+<div style="border: 1px solid black; padding: 50px;" markdown="1">
 ![image-center](/images/toy_model_markovtrap.png){: .align-center}
 </div>
 
@@ -79,7 +79,11 @@ The feature information is incorporated into a prior probability distribution of
 
 Proteins exhibit complex dynamics across a vast range of time and length scales, from the atomistic to the conformational. Adenylate kinase (ADK) showcases the biological relevance of such inherently coupled dynamics across scales: single mutations can affect large-scale protein motions and enzymatic activity. Here we present a combined computational and experimental study of multiscale structure and dynamics in proteins, using ADK as our system of choice. We show how a computationally efficient method for unsupervised graph partitioning can be applied to atomistic graphs derived from protein structures to reveal intrinsic, biochemically relevant substructures at all scales, without re-parameterisation or a priori coarse-graining. We subsequently perform full alanine and arginine in silico mutagenesis scans of the protein, and score all mutations according to the disruption they induce on the large-scale organisation. We use our calculations to guide FRET experiments on ADK, and show that mutating residue D152 to alanine or residue V164 to arginine induce a large dynamical shift of the protein structure towards a closed state, in accordance with our predictions. Our computations also predict a graded effect of different mutations at the D152 site as a result of increased coherence between the core and binding domains, an effect confirmed quantitatively through a high correlation ( R2 = 0.93 ) with the FRET ratio between closed and open populations measured on six mutants.
 
+
+
 <div style="border: 1px solid black; padding: 0px;" markdown="1">
 ![image-center](/images/ADK_results.png){: .align-center}
 </div>
+
+Figure: (a) Markov Stability results for six D152 in silico mutants, showing increasing loss of robustness of the 3-way partition. (b) As a result of each mutation, the FRET histograms exhibit a graded shift in the population ratio between open and closed states. The FRET histograms are fitted with a normal and log-normal distribution as described in Methods. Insets show a local view of the chemical structure of each D152 mutation. (c) The experimental population shift towards the closed state in smFRET is correlated with the loss of robustness of the 3-way partition computed with MS, which reflects the loss of independence of the core and AMPbd domains.
 
