@@ -67,6 +67,6 @@ We introduce MarkovTrap, an intuitive dynamical approach for semi-supervised lea
 The feature information is incorporated into a prior probability distribution of the class labels through a cosine similarity function or an standard learned estimation. The diffusion is intrinsically related to the time scale of the random-walks and thus the class labels become transiently trapped in the underlying network structure, thus creating significant label propagation on non-neighbouring nodes. We apply this methodology to some of the standard citation networks and a wikipedia datasets to demonstrate that MarkovTrap gives similar accuracies to the state of the art graph convolutional neural networks. We also show that MarkovTrap is capable of classifying nodes on a directed network. 
 
 <div style="border: 1px solid black; padding: 0px;" markdown="1">
-![image-center](/images/toy_model_markovtrap.pdf){: .align-center}
+![image-center](/images/toy_model_markovtrap.png){: .align-center}
 </div>
 
