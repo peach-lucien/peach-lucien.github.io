@@ -96,7 +96,7 @@ Figure: (a) Markov Stability results for six D152 in silico mutants, showing inc
 Engineering a protein to maintain thermal resistance whilst retaining functionality requires the rational modification of protein sequence and structure. However, predicting the effect of mutations on the thermal stability of a protein is a difficult task. Here, we present an efficient computational tool that, when given the atomistic structure of a protein, can be used to predict the change in melting temperature upon point mutation. The method first uses unsupervised learning to identify key regions in the protein and then using mutagenesis it ranks mutations according to their perturbation to these key regions. The predictions are validated through 8 point mutation melting temperature experiments in Aquifex ADK which show a strong correlation. We also show that combining the rankings of residues with their evolutionary conservation scores identifies key thermophilic adaption residues, agreeing with a number of literature studies. 
 
 
-<div style="border: 1px solid black; padding: 100px;" markdown="1">
+<div style="border: 1px solid black; padding: 150px;" markdown="1">
 ![image-center](/images/ADK_melting_1.png){: .align-center}
 </div>
 
@@ -108,7 +108,7 @@ and fits with model I (green) and II (red) for each protein respectively. (b) Th
 ![image-center](/images/conservation_adk.png){: .align-center}
 </div>
 
-Figure: Using the mutant score and conservation scores to identify thermophilic adaption residues. A scatter plot of Markov stability mutant score versus conservation score for each alanine mutant in ADK. Mutants highlighted in pink are binding residues and the majority have a low mutant score, suggesting they aren't important for the structural integrity of ADK. Residues highlighted in green are those identified by Nguyen and coworkers as thermophilic adaption residues in ADK. The second scatter plot exhibits a quantile regression of Markov Stability score versus conservation scores, residues that exhibit a high quantile score will have a high Markov Stability score given their conservation score. Of the 9 residues predicted by Nguyen we identify 4 within the top 90% quantile and a 5th within the 75% quantile
+Figure: Using the mutant score and conservation scores to identify thermophilic adaption residues. A scatter plot of Markov stability mutant score versus conservation score for each alanine mutant in ADK. Mutants highlighted in pink are binding residues and the majority have a low mutant score, suggesting they aren't important for the structural integrity of ADK. Residues circled in black are those identified by Nguyen and coworkers as thermophilic adaption residues in ADK. The second scatter plot exhibits a quantile regression of Markov Stability score versus conservation scores, residues that exhibit a high quantile score will have a high Markov Stability score given their conservation score. Of the 9 residues predicted by Nguyen we identify 4 within the top 90% quantile and a 5th within the 75% quantile
 
 
 
