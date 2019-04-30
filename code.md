@@ -25,7 +25,8 @@ Below you find brief descriptions and the links to code related to several proje
 * [Data-driven clustering of time-series](#DDCBEHAVIOURS)
 * [Highly Comparative Graph Analysis](#HCGA)
 * [MarkovTrap: semi-supervised learning on graphs](#MARKOVTRAP)
-* [ Predicting the effect of protein mutations using graph theory](#ADK1)
+* [Predicting the effect of protein mutations using graph theory](#ADK1)
+* [Unsupervised method for predicting residues critical for thermostabilisation and thermophilicity in ADK](#ADK2)
 
 
 ## Data-driven clustering of student engagement time-series to identify learning behaviours
@@ -68,11 +69,11 @@ Despite there often being a wealth of meta-data for each node, often the majorit
 We introduce MarkovTrap, an intuitive dynamical approach for semi-supervised learning on graphs based on Markovian random-walks. Instead of learning the class labels using a non-linear graph convolutional method, MarkovTrap uses a dynamic Markov process of the class labels across the graph. 
 The feature information is incorporated into a prior probability distribution of the class labels through a cosine similarity function or an standard learned estimation. The diffusion is intrinsically related to the time scale of the random-walks and thus the class labels become transiently trapped in the underlying network structure, thus creating significant label propagation on non-neighbouring nodes. We apply this methodology to some of the standard citation networks and a wikipedia datasets to demonstrate that MarkovTrap gives similar accuracies to the state of the art graph convolutional neural networks. We also show that MarkovTrap is capable of classifying nodes on a directed network. 
 
-<div style="border: 1px solid black; padding: 50px;" markdown="1">
+<div style="border: 1px solid black; padding: 100px;" markdown="1">
 ![image-center](/images/toy_model_markovtrap.png){: .align-center}
 </div>
 
-
+This figure illustrates the method of semi-supervised node classification.
 
 ## Predicting the effect of protein mutations using graph theory
 {: #ADK1}
@@ -86,4 +87,40 @@ Proteins exhibit complex dynamics across a vast range of time and length scales,
 </div>
 
 Figure: (a) Markov Stability results for six D152 in silico mutants, showing increasing loss of robustness of the 3-way partition. (b) As a result of each mutation, the FRET histograms exhibit a graded shift in the population ratio between open and closed states. The FRET histograms are fitted with a normal and log-normal distribution as described in Methods. Insets show a local view of the chemical structure of each D152 mutation. (c) The experimental population shift towards the closed state in smFRET is correlated with the loss of robustness of the 3-way partition computed with MS, which reflects the loss of independence of the core and AMPbd domains.
+
+
+
+## Unsupervised method for predicting residues critical for thermostabilisation and thermophilicity in ADK
+{: #ADK2}
+
+Engineering a protein to maintain thermal resistance whilst retaining functionality requires the rational modification of protein sequence and structure. However, predicting the effect of mutations on the thermal stability of a protein is a difficult task. Here, we present an efficient computational tool that, when given the atomistic structure of a protein, can be used to predict the change in melting temperature upon point mutation. The method first uses unsupervised learning to identify key regions in the protein and then using mutagenesis it ranks mutations according to their perturbation to these key regions. The predictions are validated through 8 point mutation melting temperature experiments in Aquifex ADK which show a strong correlation. We also show that combining the rankings of residues with their evolutionary conservation scores identifies key thermophilic adaption residues, agreeing with a number of literature studies. 
+
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/ADK_melting_1.png){: .align-center}
+</div>
+
+Figure: (a) Melting curves of ADK mutants measured by circular dichroism. The blue dots
+represent the average ellipticity measured at 2oC intervals. The sub-graphs present the melting data
+and fits with model I (green) and II (red) for each protein respectively. (b) The fitted curves for each mutant and the wildtype are plotted and normalised for comparison. (c) A plot of computational scores against melting temperatures for the ADK mutants. The Markov Stability scores of each ADK core mutation were plotted against their respective melting temperature as measured by circular dichroism. The error bars are the 95% confidence intervals of the sigmoidal fit to the CD curves. The blue line represents a linear fit with an R2 of 0.58, suggesting the presence of a correlation between the theoretical and experimental parameters.
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/conservation_adk.png){: .align-center}
+</div>
+
+Figure: Using the mutant score and conservation scores to identify thermophilic adaption residues. A scatter plot of Markov stability mutant score versus conservation score for each alanine mutant in ADK. Mutants highlighted in pink are binding residues and the majority have a low mutant score, suggesting they aren't important for the structural integrity of ADK. Residues highlighted in green are those identified by Nguyen and coworkers as thermophilic adaption residues in ADK. The second scatter plot exhibits a quantile regression of Markov Stability score versus conservation scores, residues that exhibit a high quantile score will have a high Markov Stability score given their conservation score. Of the 9 residues predicted by Nguyen we identify 4 within the top 90% quantile and a 5th within the 75% quantile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
