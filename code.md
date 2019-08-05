@@ -22,11 +22,30 @@ permalink: /Code/
 </style>
 Below you find brief descriptions and the links to code related to several projects.
 
+* [Graph centrality is a question of scale](#MULTISCALE)
 * [Data-driven clustering of time-series](#DDCBEHAVIOURS)
 * [Highly Comparative Graph Analysis](#HCGA)
 * [MarkovTrap: semi-supervised learning on graphs](#MARKOVTRAP)
 * [Predicting the effect of protein mutations using graph theory](#ADK1)
 * [Unsupervised method for predicting residues critical for thermostabilisation and thermophilicity in ADK](#ADK2)
+
+
+
+## Graph centrality is a question of scale
+{: #MULTISCALE}
+Classic measures of graph centrality capture distinct aspects of node importance, from the local(e.g., degree) to the global (e.g., closeness). Here we exploit the connection between diffusion andgeometry to introduce a multiscale centrality measure. A node is defined to be central if it breaksthe metricity of the diffusion as a consequence of the effective boundaries and inhomogeneities inthe graph. Our measure is naturally multiscale, as it is computed relative to graph neighbourhoodswithin the varying time horizon of the diffusion. We find that the centrality of nodes can differwidely at different scales. In particular, our measure correlates with degree (i.e., hubs) at smallscales and with closeness (i.e., bridges) at large scales, and also reveals the existence of multi-centricstructures in complex networks. By examining centrality across scales, our measure thus providesan evaluation of node importance relative to local and global processes on the network.
+
+<div style="border: 1px solid black; padding: 0px;" markdown="1">
+![image-center](/images/multiscale.png){: .align-center}
+</div>
+
+
+\[1] Arnaudon, Alexis, Peach, Robert L. and Barahona, Mauricio.
+" Graph centrality is a question of scale " 
+*arXiv preprint*, 2019, [DOI: arXiv:1907.08624](https://arxiv.org/pdf/1907.08624.pdf)   
+
+
+
 
 
 ## Data-driven clustering of student engagement time-series to identify learning behaviours
