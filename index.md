@@ -17,7 +17,7 @@ I studied Physics at the University of Bristol with a focus on superconductors. 
 
 {: .notice--info}
 
-CV available upon request or [follow link to CV](https://peach-lucien.github.io/CV/).
+CV available upon request or check out my [publications](https://peach-lucien.github.io/), [code](https://github.com/peach-lucien) or recent [research](https://github.com/peach-lucien).
 
 .
 
