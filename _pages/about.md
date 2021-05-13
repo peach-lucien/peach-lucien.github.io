@@ -12,16 +12,6 @@ Thanks for dropping by! I am a post-doctoral researcher at the [UniKlinik](https
 
 
 
-## Current research motivation
-
-
-
-<p align="center">
-  <img src="/images/.jpg" height="400px" width="600px" />
-</p>
-
-
-
 ## News & updates
 
 
