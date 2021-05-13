@@ -81,9 +81,9 @@ analytics:
 # Site Author
 # Site Author
 author:
-  name             : "peach-lucien"
+  name             : "Robert Peach"
   avatar           : "profile.png"
-  bio              : "Post-doctoral Research @Wuerzburg + @imperial | Graph Theory, Neuroscience, and Applied Mathematics"
+  bio              : "Post-doctoral Research @Wuerzburg + @ImperialCollege | Graph Theory, Neuroscience, and Applied Mathematics"
   location         : "Wuerzburg, Germany"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
