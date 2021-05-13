@@ -13,9 +13,9 @@ Below are details of my prior teaching:
 - MSc Business Analytics, Imperial College Business School
     - Network Analytics (Spring 2021). 
 
-    
-- Foundations of Data Science (3rd and 4th year undergraduates), Department of Mathematics, Imperial College London
-    - Network Analytics (Autumn 2019). [Lecture 1](/files/teaching_materials/lectures/lectures_ANN_1.pdf) and [Lecture 2](/files/teaching_materials/lectures/lectures_CNN_RNN.pdf)
+
+- Department of Mathematics, Imperial College London
+    - Foundations of Data Science (2019). [Lecture 1](/files/teaching_materials/lectures/lectures_ANN_1.pdf) and [Lecture 2](/files/teaching_materials/lectures/lectures_CNN_RNN.pdf)
 
 
 ## Teaching Assistant
