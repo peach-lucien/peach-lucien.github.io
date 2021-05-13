@@ -6,7 +6,11 @@ collection: research
 order_number: 50
 ---
 
-Diffusion is a common method for examining the structure and modelling physical processes on graphs. No differently, I have been interested in diffusion on graphs to solve various problems. In particular, I have been interested in the transient responses of nodes to diffusion at some source. Using the transient responses of other nodes we can extract lots of interesting information about the graph and also perform node classification. The below set of papers came from our investigations into the transient responses of nodes to diffusive sources.
+The interface between machine-learning and graphs is growing quickly. 
+
+> Machine learning on graphs is an important and ubiquitous task with applications ranging from drug design to friendship recommendation in social networks. The primary challenge in this domain is finding a way to represent, or encode, graph structure so that it can be easily exploited by machine learning models. Traditionally, machine learning approaches relied on user-defined heuristics to extract features encoding structural information about a graph (e.g., degree statistics or kernel functions). However, recent years have seen a surge in approaches that automatically learn to encode graph structure into low-dimensional embeddings, using techniques based on deep learning and nonlinear dimensionality reduction. 
+
+To support this effort a number of my research projects have explored how diffusion can be used on graphs to improve node classification or standard graph theoretical metrics can be used for graph classification.
 
 
 
