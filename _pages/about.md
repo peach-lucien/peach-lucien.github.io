@@ -10,7 +10,7 @@ redirect_from:
 
 Thanks for dropping by! I am a post-doctoral researcher at the [UniKlinik](https://www.ukw.de/startseite/) at the University of Wuerzburg and I am an Honorary Research Fellow at [Imperial College London](https://www.imperial.ac.uk/). My background is in Physics, Biology, Chemistry and Applied Mathematics (why not throw a few more scientific disciplines into the mix?!) but with a unifying theme of graph theory. In particular, my [research](research) and broader interests have converged towards exploring the links between graph theory and machine learning, and its applications into neuroscience. I am also interested in developing methods for the construction and analysis of higher-order networks in neuroscience.
 
-
+To get a better feel for my main areas of research, please check out [my research projects](../research). 
 
 ## News & updates
 
