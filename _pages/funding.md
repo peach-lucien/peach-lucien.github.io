@@ -22,10 +22,10 @@ title: "Funding"
 
 ## Postdoctoral funding (2018-2020)
 
-I was funded by the [Centre for Mathematical Precision Healthcare](https://www.imperial.ac.uk/mathematics-precision-healthcare) an (EPSRC)](https://epsrc.ukri.org/) funded centre. During this time I was under the supervision of Mauricio Barahona, David Lefevre and Nir Grossman.
+I was funded by the [Centre for Mathematical Precision Healthcare](https://www.imperial.ac.uk/mathematics-precision-healthcare) an [EPSRC](https://epsrc.ukri.org/) funded centre. During this time I was under the supervision of Mauricio Barahona, David Lefevre and Nir Grossman.
 
 <p align="center">
-  <img src="/images/funding/cmph.jpeg" height="250px" width="250px" />
+  <img src="/images/funding/cmph.jpg" height="250px" width="250px" />
 </p>
 
 
