@@ -26,7 +26,7 @@ pip install hcga
 I am a co-developer of the [Python wrapper for Markov Stability](https://github.com/barahona-research-group/PyGenStability). The code wraps the [generalised Louvain code of Michael Schaub](https://github.com/michaelschaub/generalizedLouvain) with python code to run various versions of Markov Stability. See the [github](https://github.com/barahona-research-group/PyGenStability) for installation instructions and also see the [documentation](https://barahona-research-group.github.io/PyGenStability/).
 
 <p align="center">
-  <img src="/images/research/markovstability.png" height="300px" width="300px" />
+  <img src="/images/research/markovstability.jpeg" height="300px" width="300px" />
 </p>
 
 

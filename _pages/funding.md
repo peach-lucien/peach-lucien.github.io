@@ -45,7 +45,7 @@ My PhD project was supported by the [CDT in Chemical Biology of Health and Disea
 
 ## Travel grants & awards
 
-- [Global Fellows Programme](https://www.imperial.ac.uk/study/pg/graduate-school/global-fellows-programme/) 2017 travel award to visit [Tokyo Tech](https://www.titech.ac.jp/english/), Japan.
+- [Global Fellows Programme](https://www.imperial.ac.uk/study/pg/graduate-school/global-fellows-programme/) 2016 travel award to visit [Tokyo Tech](https://www.titech.ac.jp/english/), Japan.
 - IC Trust – Travel grant (2017)
 
 
