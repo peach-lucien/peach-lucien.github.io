@@ -3,7 +3,7 @@ title: "Diffusion on graphs"
 layout: single-portfolio
 excerpt: "<img src='/images/research/multiscale.png' alt=''>"
 collection: research
-order_number: 50
+order_number: 1
 ---
 
 Diffusion is a common method for examining the structure and modelling physical processes on graphs. No differently, I have been interested in diffusion on graphs to solve various problems. In particular, I have been interested in the transient responses of nodes to diffusion at some source. Using the transient responses of other nodes we can extract lots of interesting information about the graph and also perform node classification.

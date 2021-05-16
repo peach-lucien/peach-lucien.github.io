@@ -3,7 +3,7 @@ title: "Machine learning and graphs"
 layout: single-portfolio
 excerpt: "<img src='/images/research/hcga_workflow.png' alt=''>"
 collection: research
-order_number: 50
+order_number: 2
 ---
 
 The interface between machine-learning and graphs is growing quickly. 

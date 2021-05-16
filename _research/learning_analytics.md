@@ -3,7 +3,7 @@ title: "Learning Analytics"
 layout: single-portfolio
 excerpt: "<img src='/images/research/datadriven_student_clustering.png' alt=''>"
 collection: research
-order_number: 50
+order_number: 4
 ---
 
 The widespread adoption of online courses opens opportunities for analysing learner behaviour and optimising web-based learning adapted to observed usage. In collaboration with the [EdTech group in Imperial Business School](https://www.imperial.ac.uk/business-school/about-us/edtech-lab/), I began working on data extracted from the learning management system. Our aim was to first understand how students transitioned through courses, and then to find ways to predict performance and later optimise the student experience.

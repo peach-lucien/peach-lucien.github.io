@@ -3,7 +3,7 @@ title: "Movement Disorders"
 layout: single-portfolio
 excerpt: "<img src='/images/research/multiscale.png' alt=''>"
 collection: research
-order_number: 50
+order_number: 3
 ---
 
 The term "movement disorders" refers to a group of nervous system (neurological) conditions that cause abnormal increased movements, which may be voluntary or involuntary. Movement disorders can also cause reduced or slow movements. 
