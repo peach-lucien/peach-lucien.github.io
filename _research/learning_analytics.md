@@ -16,7 +16,7 @@ In our first investigation we introduced a mathematical framework for the analys
 
 
 <p align="center">
-  <img src="/images/research/datadriven_student_clustering2.png" height="800px" width="400px" />
+  <img src="/images/research/datadriven_student_clustering2.png" height="800px" width="600px" />
 </p>
 
 

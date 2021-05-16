@@ -24,7 +24,7 @@ Our first paper reported a new method to track the phase of neural oscillations 
 We believe the suppression of aberrant neural oscillation via phase-locked driven disruption of temporal coherence may in the future represent a powerful neuromodulatory strategy to treat brain disorders. We are continuing to pursue this research from various angles - both in terms of stimulation and in terms of mapping the space of tremors for unsupervised learning.
 
 <p align="center">
-  <img src="/images/research/echt.png" height="800px" width="500px" />
+  <img src="/images/research/echt.png" height="500px" width="800px" />
 </p>
 
 
