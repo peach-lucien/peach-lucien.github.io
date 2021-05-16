@@ -29,6 +29,11 @@ We then moved our attention to graph classification. We noticed that deep-learni
 
 > Networks are widely used as mathematical models of complex systems across many scientific disciplines, not only in biology and medicine but also in the social sciences, physics, computing and engineering. Decades of work have produced a vast corpus of research characterising the topological, combinatorial, statistical and spectral properties of graphs. Each graph property can be thought of as a feature that captures important (and some times overlapping) characteristics of a network. In the analysis of real-world graphs, it is crucial to integrate systematically a large number of diverse graph features in order to characterise and classify networks, as well as to aid network-based scientific discovery. Here, we introduce hcga, a framework for highly comparative analysis of graph data sets that computes several thousands of graph features from any given network. hcga also offers a suite of statistical learning and data analysis tools for automated identification and selection of important and interpretable features underpinning the characterisation of graph data sets.
 
+<p align="center">
+  <img src="/images/research/hcga.png" height="800px" width="400px" />
+</p>
+
+
 [Article](https://doi.org/10.1016/j.patter.2021.100227){: .btn--research} 
 
 

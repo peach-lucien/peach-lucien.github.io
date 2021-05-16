@@ -16,7 +16,7 @@ In our first investigation we introduced a mathematical framework for the analys
 
 
 <p align="center">
-  <img src="/images/research/datadriven_student_clustering2.png" height="400px" width="400px" />
+  <img src="/images/research/datadriven_student_clustering2.png" height="800px" width="400px" />
 </p>
 
 
@@ -32,7 +32,7 @@ To extend our clustering of students, we aimed to further characterise learner b
 
 
 <p align="center">
-  <img src="/images/research/student_tasks.png" height="400px" width="400px" />
+  <img src="/images/research/student_tasks.png" height="500px" width="500px" />
 </p>
 
 
