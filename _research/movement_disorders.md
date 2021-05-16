@@ -1,7 +1,7 @@
 ---
 title: "Movement Disorders"
 layout: single-portfolio
-excerpt: "<img src='/images/research/multiscale.png' alt=''>"
+excerpt: "<img src='/images/research/echt.png' alt=''>"
 collection: research
 order_number: 3
 ---
